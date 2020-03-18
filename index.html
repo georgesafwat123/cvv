@@ -5,7 +5,9 @@
 
         </title>
         <style>
-          
+          #con{
+            width: 98%;
+          }
         </style>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
@@ -13,8 +15,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Tajawal&display=swap" rel="stylesheet">
       </head>
-    <body>
-        <div class="container-fluid p-3  px-3 " style="width: 100%;font-family: 'Tajawal', sans-serif;">
+    <body style="width: 100%;">
+        <div class="container-fluid p-3  px-3 " id="con" style="font-family: 'Tajawal', sans-serif;">
           <div class="row justify-content-center">
             <div class="col-4 shadow p-3 mb-5  rounded p-3 mb-2  text-black" style="background-color: #2E7F79">
                 <div>
@@ -165,14 +167,17 @@ body {
     font-size: 1em;
 }
 @media (max-width: 300px) {
+    #con{width: 100%;}
     html { font-size: 30%; }
 }
 
 @media (min-width: 500px) {
+   
     html { font-size: 60%; }
 }
 
 @media (min-width: 700px) {
+
     html { font-size: 80%; }
 }
 
